@@ -16,6 +16,7 @@ function run() {
             \"message\": \"Lift is analyzing commit $commit\", \
             \"file\": \"file.txt\", \
             \"details_url\": \"https://example.com/#example\" \
+            \"category\": \"Info\" \
           }]"
 }
 
