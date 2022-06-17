@@ -15,7 +15,6 @@ function run() {
     echo "[{ \"type\": \"Hello Friend\", \
             \"message\": \"Lift is analyzing commit $commit\", \
             \"file\": \"file.txt\", \
-            \"line\": 1, \
             \"details_url\": \"https://example.com/#example\" \
           }]"
 }
