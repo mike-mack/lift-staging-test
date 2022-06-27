@@ -23,7 +23,7 @@ function run() {
             {   \"type\": \"Info Tool Note Without Line Number\", \
                 \"message\": \"Lift is analyzing commit $commit\", \
                 \"file\": \"file.txt\", \
-                \"category\": \"info\", \
+                \"category\": \"Info\", \
                 \"details_url\": \"https://example.com/#example\" \
             }]"
     else
