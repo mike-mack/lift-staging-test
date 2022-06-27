@@ -1,1 +1,2 @@
 Example file
+Additional content for test 8.
