@@ -1,1 +1,2 @@
 Example file
+Some extra content for test 10.
