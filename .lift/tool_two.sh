@@ -14,16 +14,10 @@ function applicable() {
 function run() {
     BRANCH=$(git rev-parse --abbrev-ref HEAD)
     if [[ "$BRANCH" != "main" ]] ; then
-        echo "[{ \"type\": \"Info Tool Note With Line Number\", \
+        echo "[{ \"type\": \"Info Tool Note Without Line Number\", \
                 \"message\": \"Lift is analyzing commit $commit\", \
                 \"file\": \"file.txt\", \
-                \"line\": 1, \
-                \"details_url\": \"https://example.com/#example\" \
-            },
-            {   \"type\": \"Info Tool Note Without Line Number\", \
-                \"message\": \"Lift is analyzing commit $commit\", \
-                \"file\": \"file.txt\", \
-                \"category\": \"Info\", \
+                \"category\": \"info\", \
                 \"details_url\": \"https://example.com/#example\" \
             }]"
     else
